@@ -5,7 +5,6 @@ import { useNavigate } from "react-router-dom";
 const Meals = props => {
   //   console.log(props);
   const { strMeal, strInstructions, strMealThumb, idMeal } = props.meal;
-  //   const { handleAddToCart, meal } = props;
   const navigate = useNavigate();
   const showDetails = () => {
     const path = `meals/${idMeal}`;
