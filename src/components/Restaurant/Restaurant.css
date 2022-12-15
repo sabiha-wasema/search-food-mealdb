@@ -1,0 +1,13 @@
+.search-input {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  background-color: rgb(230, 225, 225);
+  border-radius: 5px;
+}
+.meals-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 20px 40px;
+}

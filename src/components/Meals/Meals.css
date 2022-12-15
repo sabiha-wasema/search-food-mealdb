@@ -1,0 +1,20 @@
+.meal {
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  background-color: rgb(247, 243, 243);
+  padding: 20px 30px;
+  border-radius: 15px;
+}
+.meal img {
+  width: 200px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.details-button {
+  border: none;
+  padding: 10px 40px;
+  border-radius: 10px;
+  background-color: brown;
+  color: white;
+}
