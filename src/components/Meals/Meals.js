@@ -20,7 +20,7 @@ const Meals = props => {
         {strInstructions.slice(0, 100)}
       </p>
       <button onClick={showDetails} className="details-button">
-        Details: {idMeal}
+        Details
       </button>
     </div>
   );
